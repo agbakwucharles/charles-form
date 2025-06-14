@@ -156,6 +156,7 @@ export default function FormBuilder() {
   ])
 
   const addPage = () => {
+    // this built in prompt isnt needed but I added it so that we can give a name to our tab if we wanted.
     const name = prompt("Name")
     const newPage: FormPage = {
       id: `page-${Date.now()}`,
